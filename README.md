@@ -93,9 +93,9 @@ WHERE (
 
 ```
 
-## -- Data Exploration --
+** Data Exploration **
 
-## -- How many sales transaction we have? --
+**How many sales transaction we have?**
 ```sql
 SELECT
 	COUNT(*) AS total_transaction
