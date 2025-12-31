@@ -32,7 +32,7 @@ such as customer behavior, category performance, monthly sales trends, and best-
 
 ## Project Structure
 
-## -- Create Database --
+**Create Database**
 ```  sql 
 CREATE DATABASE Sales_Analysis;
 								
@@ -93,7 +93,7 @@ WHERE (
 
 ```
 
-## Data Exploration **
+**Data Exploration**
 
 **How many sales transaction we have?**
 ```sql
