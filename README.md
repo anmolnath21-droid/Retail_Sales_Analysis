@@ -96,10 +96,11 @@ WHERE (
 **Data Exploration**
 
 **How many sales transaction we have?**
-```sql
+``` sql
 SELECT
 	COUNT(*) AS total_transaction
-FROM retail_sales ```
+FROM retail_sales
+```
 
 **How many customers we have?**
 ```sql
