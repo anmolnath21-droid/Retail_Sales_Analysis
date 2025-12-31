@@ -35,8 +35,9 @@ such as customer behavior, category performance, monthly sales trends, and best-
 **Create Database**
 ``` sql 
 CREATE DATABASE Sales_Analysis;
-								
--- Create Table --
+```								
+**Create Table**
+``` sql 
 CREATE TABLE Retail_Sales(
 				transactions_id INT PRIMARY KEY,
 				sale_date DATE,
