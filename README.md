@@ -32,8 +32,8 @@ such as customer behavior, category performance, monthly sales trends, and best-
 
 ## Project Structure
 
--- Create Database --
-```  sql 
+**Create Database**
+``` sql 
 CREATE DATABASE Sales_Analysis;
 								
 -- Create Table --
