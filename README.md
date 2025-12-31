@@ -59,9 +59,8 @@ CREATE TABLE Retail_Sales(
 - **Category Count**: Identify all unique product categories in the dataset.
 - **Null Value Check**: Check for any null values in the dataset and delete records with missing data.
 
-``` sql
-
--- DATA CLEANING --		
+**DATA CLEANING**
+```sql 
 SELECT
 	* 
 	FROM Retail_sales
@@ -76,8 +75,9 @@ WHERE (
 	OR price_per_unit IS NULL
 	OR cogs IS NULL
 	OR total_sale IS NULL );
-
---- Removing Null Values---
+```
+**Removing Null Values**
+``` sql 
 DELETE 
 	FROM retail_sales
 WHERE (
@@ -91,7 +91,6 @@ WHERE (
 	OR price_per_unit IS NULL
 	OR cogs IS NULL
 	OR total_sale IS NULL);
-
 ```
 
 **Data Exploration**
