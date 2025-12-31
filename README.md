@@ -30,6 +30,21 @@ such as customer behavior, category performance, monthly sales trends, and best-
 2. Run SQL files in order from `sql/` folder
 3. Analyze outputs
 
+## Project Structure
 
-**Anmol Nath**  
+## -- Create Database --
+CREATE DATABASE Sales_Analysis 
 
+-- Create Table --
+CREATE TABLE Retail_Sales(
+				transactions_id INT PRIMARY KEY,
+				sale_date DATE,
+				sale_time TIME,
+				customer_id INT,
+				gender VARCHAR (20),
+				age INT,
+				category VARCHAR (20),
+				quantity INT,
+				price_per_unit FLOAT,
+				cogs FLOAT,
+				total_sale FLOAT
