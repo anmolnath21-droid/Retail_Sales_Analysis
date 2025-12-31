@@ -48,7 +48,7 @@ CREATE TABLE Retail_Sales(
 				quantity INT,
 				price_per_unit FLOAT,
 				cogs FLOAT,
-				total_sale FLOAT
+				total_sale FLOAT ```
 
 ## Data Exploration & Cleaning
 Record Count: Determine the total number of records in the dataset.
