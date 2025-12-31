@@ -33,9 +33,9 @@ such as customer behavior, category performance, monthly sales trends, and best-
 ## Project Structure
 
 ## -- Create Database --
-## CREATE DATABASE Sales_Analysis 
+CREATE DATABASE Sales_Analysis 
 
-'''sql
+```sql
 -- Create Table --
 CREATE TABLE Retail_Sales(
 				transactions_id INT PRIMARY KEY,
@@ -49,4 +49,4 @@ CREATE TABLE Retail_Sales(
 				price_per_unit FLOAT,
 				cogs FLOAT,
 				total_sale FLOAT
-								'''
+								```
