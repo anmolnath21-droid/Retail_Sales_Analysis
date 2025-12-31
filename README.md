@@ -35,7 +35,7 @@ such as customer behavior, category performance, monthly sales trends, and best-
 ## -- Create Database --
 ```  sql 
 CREATE DATABASE Sales_Analysis;
-								```
+								
 
 ```sql
 -- Create Table --
