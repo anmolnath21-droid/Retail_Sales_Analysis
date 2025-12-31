@@ -2,8 +2,9 @@
 
 -- Create Database --
 CREATE DATABASE Sales_Analysis 
-'''Sql
+
 -- Create Table --
+''' sql
 CREATE TABLE Retail_Sales(
 				transactions_id INT PRIMARY KEY,
 				sale_date DATE,
