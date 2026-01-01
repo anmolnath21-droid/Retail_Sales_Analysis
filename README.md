@@ -92,8 +92,8 @@ WHERE (
 	OR cogs IS NULL
 	OR total_sale IS NULL);
 ```
-
-**Data Exploration**
+## Data Analysis and findings
+**The following sql query were developed to answer specific business questions** 
 
 **How many sales transaction we have?**
 ``` sql
@@ -101,7 +101,6 @@ SELECT
 	COUNT(*) AS total_transaction
 FROM retail_sales
 ```
-
 **How many customers we have?**
 ```sql
 SELECT
