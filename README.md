@@ -99,19 +99,19 @@ WHERE (
 ``` sql
 SELECT
 	COUNT(*) AS total_transaction
-FROM retail_sales
+FROM retail_sales;
 ```
 **How many customers we have?**
 ```sql
 SELECT
 	COUNT(customer_id) AS total_customers_id
-FROM retail_sales
+FROM retail_sales;
 ```
 **How many category we have?**
 ```sql
 SELECT
 	 DISTINCT category AS unique_category
-FROM retail_sales
+FROM retail_sales;
 ```
 ## Data Analysis & Business Problems & Answers
 
@@ -119,7 +119,7 @@ FROM retail_sales
 ``` sql
 SELECT *
 	FROM retail_sales
-WHERE sale_date = '2022-11-05'
+WHERE sale_date = '2022-11-05';
 ```
 
 **Write a SQL query to retrieve all transactions where the category is 'Clothing' and the quantity sold is more than 4 in the month of Nov-2022:**
@@ -128,7 +128,7 @@ SELECT *
 	FROM retail_sales
 WHERE category = 'Clothing' 
 AND TO_CHAR(sale_date, 'YYYY-MM') = '2022-11'
-AND quantity >=4
+AND quantity >=4;
 ```
 **Write a SQL query to calculate the total sales (total_sale) for each category:**
 
@@ -139,7 +139,7 @@ SELECT
 	COUNT(*) AS total_orders
 FROM retail_sales
 	GROUP BY category
-	ORDER BY SUM(total_sale) DESC
+	ORDER BY SUM(total_sale) DESC;
 ```
 
 **Write a SQL query to find the average age of customers who purchased items from the 'Beauty' category:**
@@ -147,7 +147,7 @@ FROM retail_sales
 SELECT ROUND (AVG(age)) AS avg_age
 	FROM retail_sales
 WHERE 
-	category = 'Beauty'
+	category = 'Beauty';
 ```
 
 **Write a SQL query to find all transactions where the total_sale is greater than 1000:**
@@ -155,7 +155,7 @@ WHERE
 SELECT * 
 	FROM retail_sales
 WHERE 
-	total_sale > 1000
+	total_sale > 1000;
 ```
 **Write a SQL query to find the total number of transactions (transaction_id) made by each gender in each category:**
 ``` sql
@@ -165,7 +165,7 @@ SELECT
 	count(transactions_id) AS total_transaction
 FROM retail_sales
 GROUP BY 
-	category, gender
+	category, gender;
 ```
 **Write a SQL query to calculate the average sale for each month. Find out best selling month in each year:**
 ``` sql
@@ -182,7 +182,7 @@ SELECT
 FROM retail_sales
 GROUP BY 1, 2 
 ) AS t
-WHERE rank = 1
+WHERE rank = 1;
 ```
 
 **Write a SQL query to find the top 5 customers based on the highest total sales**  
@@ -196,7 +196,7 @@ FROM retail_sales
 		customer_id
 	ORDER BY 
 		SUM(total_sale) DESC 
-LIMIT 5
+LIMIT 5;
 ```
 
 **Write a SQL query to find the number of unique customers who purchased items from each category:**
@@ -205,38 +205,56 @@ SELECT
 	category,
 	COUNT (DISTINCT customer_id) 
 FROM retail_sales
-GROUP BY category
+GROUP BY category;
 ```
 ## SQL Retail Sales Analysis – Findings & Report
 
 **Data Overview**
+
 **The dataset contains retail sales transactions with customer demographics, product categories, pricing, and sales values.**
+
 **Data cleaning was performed by removing records with NULL values to ensure accuracy and reliability of analysis.**
+
 **Analysis covers transaction trends, customer behavior, category performance, and time-based sales patterns.**
 
 ## Key Findings
 
 **Multiple product categories contribute to sales, with Clothing emerging as a top-performing category.**
+
 **November is the best-selling month, showing strong seasonal demand.**
+
 **A small group of high-value customers contributes a large share of total revenue.**
+
 **High-value transactions (total_sale > 1000) significantly impact overall sales.**
+
 **Customer demographics (age & gender) influence purchasing behavior across categories.**
+
 **Sales patterns show clear monthly and yearly seasonality.**
+
 **Data cleaning improved analysis accuracy by removing incomplete records.**
 
 ## Conclusion
+
 **This SQL Retail Sales Analysis demonstrates how structured SQL queries can be used to derive actionable business insights from raw transactional data.**
+
 ## Key Takeaways:
+
 **Seasonal trends significantly impact sales performance.**
+
 **Customer demographics play a crucial role in category-wise sales.**
+
 **High-value customers contribute disproportionately to revenue.**
+
 **Data cleaning is essential to ensure reliable analytical outcomes.**
 
 ## Business Recommendations:
 
 **Focus marketing campaigns around peak months (November).**
+
 **Introduce loyalty programs for top customers.**
+
 **Tailor promotions based on gender and category preferences.**
+
 **Strengthen inventory planning for high-demand categories.**
 
 
