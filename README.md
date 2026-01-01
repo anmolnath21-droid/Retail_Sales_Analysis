@@ -229,14 +229,13 @@ GROUP BY category;
 
 **This SQL Retail Sales Analysis demonstrates how structured SQL queries can be used to derive actionable business insights from raw transactional data.**
 
-- **Key Takeaways:**
+## Key Takeaways:
 - **Seasonal trends significantly impact sales performance.**
 - **Customer demographics play a crucial role in category-wise sales.**
 - **High-value customers contribute disproportionately to revenue.**
 - **Data cleaning is essential to ensure reliable analytical outcomes.**
 
-- **Business Recommendations:**
-
+## Business Recommendations:
 - **Focus marketing campaigns around peak months (November).**
 - **Introduce loyalty programs for top customers.**
 - **Tailor promotions based on gender and category preferences.**
