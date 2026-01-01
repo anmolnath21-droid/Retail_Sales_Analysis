@@ -210,35 +210,32 @@ GROUP BY category;
 ## SQL Retail Sales Analysis – Findings & Report
 
 **Data Overview**
-
-- **The dataset contains retail sales transactions with customer demographics, product categories, pricing, and sales values.**
-- **Data cleaning was performed by removing records with NULL values to ensure accuracy and reliability of analysis.**
-- **Analysis covers transaction trends, customer behavior, category performance, and time-based sales patterns.**
+- The dataset contains retail sales transactions with customer demographics, product categories, pricing, and sales values.
+- Data cleaning was performed by removing records with NULL values to ensure accuracy and reliability of analysis.
+- Analysis covers transaction trends, customer behavior, category performance, and time-based sales patterns.
 
 ## Key Findings
-
-- **Multiple product categories contribute to sales, with Clothing emerging as a top-performing category.**
-- **November is the best-selling month, showing strong seasonal demand.**
-- **A small group of high-value customers contributes a large share of total revenue.**
-- **High-value transactions (total_sale > 1000) significantly impact overall sales.**
-- **Customer demographics (age & gender) influence purchasing behavior across categories.**
-- **Sales patterns show clear monthly and yearly seasonality.**
-- **Data cleaning improved analysis accuracy by removing incomplete records.**
+- Multiple product categories contribute to sales, with Clothing emerging as a top-performing category.
+- November is the best-selling month, showing strong seasonal demand.
+- A small group of high-value customers contributes a large share of total revenue.
+- High-value transactions (total_sale > 1000) significantly impact overall sales.
+- Customer demographics (age & gender) influence purchasing behavior across categories.
+- Sales patterns show clear monthly and yearly seasonality.
+- Data cleaning improved analysis accuracy by removing incomplete records.
 
 ## Conclusion
-
-**This SQL Retail Sales Analysis demonstrates how structured SQL queries can be used to derive actionable business insights from raw transactional data.**
+- This SQL Retail Sales Analysis demonstrates how structured SQL queries can be used to derive actionable business insights from raw transactional data.
 
 ## Key Takeaways:
-- **Seasonal trends significantly impact sales performance.**
-- **Customer demographics play a crucial role in category-wise sales.**
-- **High-value customers contribute disproportionately to revenue.**
-- **Data cleaning is essential to ensure reliable analytical outcomes.**
+- Seasonal trends significantly impact sales performance.
+- Customer demographics play a crucial role in category-wise sales.
+- High-value customers contribute disproportionately to revenue.
+- Data cleaning is essential to ensure reliable analytical outcomes.
 
 ## Business Recommendations:
-- **Focus marketing campaigns around peak months (November).**
-- **Introduce loyalty programs for top customers.**
-- **Tailor promotions based on gender and category preferences.**
-- **Strengthen inventory planning for high-demand categories.**
+- Focus marketing campaigns around peak months (November).
+- Introduce loyalty programs for top customers.
+- Tailor promotions based on gender and category preferences.
+- Strengthen inventory planning for high-demand categories.
 
 
